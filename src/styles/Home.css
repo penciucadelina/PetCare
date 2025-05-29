@@ -1,0 +1,94 @@
+.home-intro {
+    padding: 3rem;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    background: #fff8f8;
+    border-radius: 10px;
+}
+
+.home-intro h1 {
+    color: #d92626;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.home-intro p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.features {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+.features li {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.cta-btn {
+    padding: 1rem 2rem;
+    background-color: #d92626;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cta-btn:hover {
+    background-color: #b01f1f;
+}
+.hero {
+    padding: 3rem;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    background-color: #fff8f8;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.hero h1 {
+    color: #d92626;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #444;
+}
+
+.features {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.features li {
+    margin-bottom: 0.75rem;
+}
+
+.cta-btn {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: #d92626;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #b01f1f;
+}
+

@@ -1,0 +1,38 @@
+.services {
+    padding: 4rem 2rem;
+    background-color: #fff6f6;
+    text-align: center;
+}
+
+.services h2 {
+    color: #d92626;
+    margin-bottom: 2rem;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.service-card {
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.service-card h3 {
+    color: #b01f1f;
+    margin-bottom: 0.5rem;
+}
+
+.service-card span {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #333;
+}

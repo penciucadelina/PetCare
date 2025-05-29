@@ -1,0 +1,21 @@
+{
+  "appointments": [
+    {
+      "id": 1,
+      "petId": 1,
+      "date": "2024-06-01",
+      "time": "15:00",
+      "type": "Vaccin",
+      "description": "Vaccin antirabic"
+    }
+  ],
+  "medical-records": [
+    {
+      "id": 1,
+      "petId": 1,
+      "type": "VACCINE",
+      "date": "2024-05-20",
+      "description": "Vaccin gripă canină"
+    }
+  ]
+}

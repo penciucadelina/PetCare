@@ -1,0 +1,77 @@
+.auth-page {
+    height: 100vh;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-container {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 800px;
+    max-width: 90%;
+}
+
+.auth-form {
+    flex: 1;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.auth-form h1 {
+    color: #d92626;
+}
+
+.auth-form input {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.auth-form button {
+    margin-top: 0.75rem;
+    padding: 0.75rem;
+    background: #d92626;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.auth-form button:hover {
+    background: #b01f1f;
+}
+
+.auth-form .bottom-link {
+    margin-top: auto;
+    font-size: 0.9rem;
+}
+
+.auth-image {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+body {
+    background-image: url('../media/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.auth-page.bg-paws {
+    background-image: url('../media/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}

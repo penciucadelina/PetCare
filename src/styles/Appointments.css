@@ -1,0 +1,71 @@
+.appointments-page {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.appointment-list, .appointment-form {
+    flex: 1;
+    background: #fff5f5;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+h2, h3 {
+    color: #d92626;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+input, textarea, button {
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+    padding: 0.6rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #d92626;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #b01f1f;
+}
+.success-msg {
+    margin-top: 1rem;
+    color: #2e7d32;
+    background-color: #e6f4ea;
+    border: 1px solid #c8e6c9;
+    padding: 0.75rem;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f;
+}
